@@ -1,5 +1,9 @@
-# Force GitHub to detect Dart as main language
+# اجبار GitHub على احتساب Dart فقط
 *.dart linguist-detectable=true
+
+# تجاهل كل اللغات اللي GitHub ممكن يخطئ في تحليلها
 *.cpp linguist-detectable=false
-*.h linguist-detectable=false
 *.c linguist-detectable=false
+*.h linguist-detectable=false
+CMakeLists.txt linguist-detectable=false
+*.cmake linguist-detectable=false
